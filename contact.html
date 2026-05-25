@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact - Local Café</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Mono&family=DM+Sans&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div id="page-contact">
+
+  <!-- NAV -->
+  <nav>
+    <div class="nav-logo">Local Café</a></div>
+    <div class="nav-links">
+      <a href="./index.html">Home</a>
+      <a href="./menu.html">Menu</a>
+      <a href="./contact.html" class="active">Contact</a>
+    </div>
+  </nav>
+
+  <main>
+
+    <div class="page-header">
+      <div class="page-header-left">
+        <h1>CONTACT US</h1>
+        <p>A direct line for reservations, inquiries, and coffee details.</p>
+      </div>
+    </div>
+
+    <div class="contact-grid">
+      <!-- FORM -->
+      <div class="inquiry-panel">
+        <h2>INQUIRY FORM</h2>
+
+        <input class="form-control" placeholder="Enter Name">
+        <input class="form-control" placeholder="Enter Email">
+        <textarea class="form-control" placeholder="Message"></textarea>
+
+        <button class="btn btn-dark">Submit Inquiry</button>
+      </div>
+
+      <!-- MAP -->
+      <div class="map-panel">
+        <div class="map-placeholder">
+          <!-- Map would be embedded here -->
+           <iframe 
+            src="https://www.google.com/maps?q=Moorabbin%20VIC&output=embed"
+            width="100%" 
+            height="300" 
+            style="border:0;"
+            allowfullscreen>
+            </iframe>
+        </div>
+      </div>
+    </div>
+
+        <!-- Hours -->
+    <section class="hours-section">
+      <div class="hours-header">
+        <h2>OPENING HOURS</h2>
+      </div>
+
+      <div class="hours-rule"></div>
+
+      <div class="hours-grid">
+        <div class="hours-card">
+          <div class="hours-day">Mon — Thu</div>
+          <div class="hours-time">07:00 — 18:00</div>
+        </div>
+
+        <div class="hours-card highlight">
+          <div class="hours-day">Fri — Sat</div>
+          <div class="hours-time">07:00 — 16:00</div>
+        </div>
+
+        <div class="hours-card">
+          <div class="hours-day">Sunday</div>
+          <div class="hours-time">08:00 — 16:00</div>
+        </div>
+
+        <div class="hours-card">
+          <div class="hours-day">Holidays</div>
+          <div class="hours-time" style="font-size:20px;opacity:0.55;">Vary</div>
+        </div>
+      </div>
+    </section>
+
+   <!-- Info Row -->
+    <div class="contact-info-row">
+      <div class="info-card">
+        <div class="info-card-title">ADDRESS</div>
+        <address>
+          1488 South Rd<br>
+          Moorabbin VIC 3189<br>
+          Australia
+        </address>
+      </div>
+      <div class="info-card">
+        <div class="info-card-title">CONNECTIVITY</div>
+        <p>
+          P: +61 555 010 234<br>
+          E: hello@localcafe.com
+        </p>
+      </div>
+      <div class="info-card">
+        <div class="info-card-title">Visitor Information</div>
+        <ul class="bullet-list">
+          <li>Parking: Rear Entrance</li>
+          <li>WiFi: LC_GUEST_01</li>
+          <li>Pet Friendly</li>
+        </ul>
+      </div>
+    </div>
+  </main>
+
+ <!-- FOOTER -->
+<footer class="footer">
+  
+  <div class="footer-left">
+    <div class="footer-logo">Local Café</div>
+    <p class="footer-tag">Your neighborhood coffee spot</p>
+  </div>
+
+  <div class="footer-divider"></div>
+
+  <div class="footer-center">
+    <a href="#">Privacy Policy</a>
+    <a href="#">Terms of Service</a>
+    <a href="#">Instagram</a>
+  </div>
+
+  <div class="footer-divider"></div>
+
+  <div class="footer-right">
+    <div class="footer-copy">© 2026 Local Café</div>
+    <div class="footer-small">All Rights Reserved</div>
+  </div>
+
+</footer>
+
+</div>
+
+</body>
+</html>
