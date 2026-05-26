@@ -117,12 +117,8 @@ nav {
   background: url('./images/IMG_005.jpg');
   background-size: cover;
   background-position: center;
-  transition: transform 0.6s ease;
 }
 
-.hero-right:hover {
-  transform: scale(1.05);
-}
 
 @media (max-width: 768px) {
 
